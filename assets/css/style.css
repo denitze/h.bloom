@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+header h1 {
+    font-family: 'Libre Caslon Display', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin:0 auto;
+}
+
+header ul {
+    list-style: none; 
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.123);
+    margin:0 auto;
+}
+
+header li {
+    display: inline-block;
+    padding:1rem 3rem;  
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    margin:0 15%;
+}
+
+h2 {
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.main-section {
+    position: relative;
+    height:45vh;
+}
+
+#uppercase-h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:3rem;
+}
+
+.left-side {
+    width: 35%;
+    display:inline-block;
+    position:absolute;
+    left:0;
+}
+
+.right-side {
+    width: 35%;
+    display:inline-block;
+    position:absolute;
+    right:0;
+}
+
+h3 {
+    font-family: 'Libre Caslon Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main ul {
+    list-style: none; 
+    line-height: 3rem;
+}
+
+main a {
+    /* position:absolute;
+    bottom:0; */
+    right: 45%;
+    text-decoration: none;
+    background: #3d4246;
+    color: #f5f5f5;
+    font-family: 'Libre Caslon Display', serif;
+    text-transform: uppercase;
+    padding: 1rem 11rem;
+    letter-spacing: 2px;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+.mit-bild img {
+width:100%;
+margin-bottom:3rem;
+}
+
+.mit-bild article {
+    text-align: left;
+}
+
+footer {
+    height: 10vh;
+    background: #3d42462a;
+    line-height: 10vh;
+    font-family: 'Libre Caslon Display', serif;
+    padding: 0 15%;
+    
+    
+    
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(29, 27, 27);
+    font-size: 1.2rem;
+    padding-right:6rem;
+
+}
+
+
+
+
+
+
+
+/* 
+Farben: #3d4246 #f5f5f5 #000 #fff
+
+Schriften: Open Sans, Libre Caslon Display
+font-family: 'Libre Caslon Display', serif;
+font-family: 'Open Sans', sans-serif; */
